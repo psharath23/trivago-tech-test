@@ -1,0 +1,108 @@
+.hotel-details{
+    padding: 2px 5px 2px 5px;
+    overflow-y: hidden;
+    height: 90vh;
+    position: relative;
+    .hotel-name{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 2px 5px 2px;
+    }
+    .hotel-images-slides{
+        height: 140px;
+        width: 100%;
+        position: relative;
+        .description{
+            position: absolute;
+        }
+    }
+    .rooms-div{
+        .rooms{
+            margin-top: 20px;
+            height: 265px;
+            overflow-y: auto;
+            display: inline-block;
+        }
+        .rooms-loaded-more{
+            height: 305px;
+        }
+    }
+    .load-more-div {
+        display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    
+        .load-more{
+            background-color: #007faf;
+            color: white;
+            width: 40%;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            height: 24px;
+            text-align: center;
+            padding: 10px 0px 0px 0px;
+        }
+    }
+}
+
+.details{
+    .detail{
+        display: flex;
+    }
+    .details-heading{
+        font-size: 12px;
+        font-weight: bold;
+        text-align:left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .details-content{
+        font-size: 10px;
+        font-style: italic;
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .description.details-content{
+        text-align: justify;
+    }
+    
+    .detail.rating-container{
+        width: 80px;
+        height: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .hotel-details{
+        .hotel-images-slides{
+            text-align: center;
+            height: 200px;
+            width: 60%;
+            position: relative;
+            display: inline-block;
+        }
+        .details{
+            padding-left:20% ;
+        }
+        .rooms-div{
+            .rooms{
+                height: 195px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-wdith: 1024px){
+    .hotel-details{
+        .rooms-div{
+            .rooms{
+                width:65%
+            }
+        }
+    }
+}

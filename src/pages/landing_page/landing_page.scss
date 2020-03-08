@@ -1,0 +1,54 @@
+.landing-page{
+    padding:5px;
+    .landing-loc{
+        display: flex;
+        justify-content: center;
+    }
+    .landing-date{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6px;
+    }
+    .landing-page-hotel-filters {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .hotels-list{
+        display: inline-block;
+        text-align:center;
+    }
+    .clear-filters-div {
+        display: flex;
+        justify-content: center;
+        .clear-filters {
+            background-color: #c94a38;
+            color: #ffc107;
+            width: 70px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 0px 0px 10px 0px;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (min-width:768px){
+    .landing-page{
+        .landing-page-hotel-filters{
+            .hotel-filters{
+                .hotel-filter{
+                    .multi-select{
+                        width:100px;
+                        .multi-select-name{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

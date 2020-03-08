@@ -1,0 +1,73 @@
+.room{
+    height: 95px;
+    display: flex;
+    width: 300px;
+    border: solid 0.5px grey;
+    border-radius: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin: 2px 3px 10px 2px;
+    background-color: #ffcc85;
+    flex-direction: column;
+    justify-content: space-between;
+    .room-name{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px;
+        height: 25px;
+        text-align: center;
+        border: solid 1px grey;
+        border-radius: 12px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: #c94a38;
+    }
+    .room-description{
+        font-size:10px;
+        font-style: italic;
+        word-break: break-word;
+    }
+    .room-max-occupancy{
+        font-size:12px;
+        font-weight:bold
+    }
+    .room-price{
+        font-size:12px;
+        font-weight: bold;
+    }
+    .room-occ-price{
+        padding: 0px 2px 0px 2px;
+        display: flex;
+        justify-content: space-between;
+        .book-room {
+            background-color: #c94a38;
+            color: white;
+            width: 25%;
+            font-weight: bold;
+            border-radius: 5px;
+            height: 24px;
+            text-align: center;
+            padding: 10px 0px 0px 0px;
+        }
+    }
+}
+
+.details-heading{
+    font-size: 12px;
+    font-weight: bold;
+    text-align:left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.details-content{
+    font-size: 10px;
+    font-style: italic;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px){
+    .room{
+        float:left
+    }
+}

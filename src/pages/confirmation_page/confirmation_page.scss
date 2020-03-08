@@ -1,0 +1,61 @@
+.confirmation-page{
+    .booking-status {
+        font-size: 30px;
+        font-weight: bold;
+        color: #f5970f;
+    }
+    .payment-details {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        // display: inline-block;
+        // text-align: center;
+    }
+    .booking-details {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        // display: inline-block;
+        // text-align: center;
+    }
+    .hotel-details {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        // display: inline-block;
+        // text-align: center;
+    }
+}
+
+.c-main-header{
+    font-size:15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.c-header{
+    font-size:10px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.c-value{
+    font-size:10px;
+}
+
+.c-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-value{
+    .rating{
+        .rating-container{
+            width: 79px;
+            height: 16px;
+            span{
+                font-size: 10px;
+            }
+        }
+    }
+}

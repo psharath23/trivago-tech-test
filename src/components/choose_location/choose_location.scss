@@ -1,0 +1,31 @@
+.choose-loc {
+    font-size: 12px;
+    border: solid 1px grey;
+    height: 25px;
+    padding: 8px;
+    text-align: center;
+    color: #FF5722;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    background: gainsboro;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    .change-loc-text{
+        display: inline-block;
+        padding-left: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    img {
+        height: 25px;
+        width: 50px;
+    }
+}
+
+.choose-loc:hover{
+    background:grey;
+    color: rgb(201, 74, 56);
+}

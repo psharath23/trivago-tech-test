@@ -1,0 +1,16 @@
+.amenities-container {
+    display: flex;
+    width: 150px;
+    height: 20px;
+    span{
+        font-size:13px
+    }
+    .amenities{
+        position: relative;  
+        width:20px;
+        img{
+            width:100%;
+            height:100%
+        }
+    }
+}

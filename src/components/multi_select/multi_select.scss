@@ -1,0 +1,54 @@
+.multi-select{
+    height: 100%;
+    font-weight: bold;
+    width: 62px;
+    border: solid 0.1px grey;
+    position: relative;
+    background-color: #96cade;
+    .multiselect-name{
+        font-size: 7px;
+        .selected-count{
+            color:#007faf;
+        }
+    }
+    .values-overlay{
+        width:100vw;
+        height:100vh;
+        z-index: 9;
+    }
+    .values{
+        position: absolute;
+        max-height: 300px;
+        overflow-y: auto;
+        margin-top: 20%;
+        width: 100%;
+        z-index: 10;
+        box-shadow: -2px 11px 9px grey;
+        .select-value-item{
+            padding: 1px 2px 1px 1px;
+            display: flex;
+            border: solid 0.1px grey;
+            background-color: #f2cbab;
+            color: #007faf;
+            .select-value-checkbox{
+                height: 15px;
+                width: 15px;
+                padding: 1px 1px 10px 4px;
+                img{
+                    max-width: height 100%;
+                    max-width:100%
+                }
+            }
+        }
+        .select-value-name{
+            font-size: 10px;
+            text-align: left;
+            padding: 7px 0px 0px 2px;
+            /* white-space: nowrap; */
+            width: 100%;
+            /* text-overflow: ellipsis; */
+            /* overflow: hidden; */
+            word-break: break-all;
+        }
+    }
+}

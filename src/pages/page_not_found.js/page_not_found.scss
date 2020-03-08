@@ -1,0 +1,16 @@
+.page-not-found{
+    .page-not-found-text {
+        font-weight: bold;
+        font-size: 31px;
+    }
+    .possible-routes {
+        font-style: italic;
+    }
+    
+    .routes{
+        margin-top: 10px;
+        .route {
+            margin-bottom: 10px;
+        }
+    }
+}

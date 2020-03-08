@@ -1,0 +1,66 @@
+.admin-page{
+    .create-hotel{
+        text-align: center;
+        display: inline-block;
+        .amnty{
+            flex-direction: column;
+        }
+        .inp-item{
+            display: flex;
+            justify-content: center;
+            input[type=text]{
+                border-radius: 3px;
+                border: solid 0.5px grey;
+                padding: 2px 2px 2px 2px;
+            }
+            .amenities-list{
+                .amenity{
+                    display: flex;
+                    width: 185px;
+                    height: 30px;
+                    border: solid 1px grey;
+                    border-radius: 15px;
+                    .checkbox-icon{
+                        width:30%;
+                        img{
+                            width: 30%;
+                            height: 40%;
+                        }
+                    }
+                    .amenity-name{
+                        width:40%;
+                        font-size:12px;
+                    }
+                    .amenity-icon{
+                        width:30%;
+                        img{
+                            width: 40%;
+                            height: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.create{
+    color: #f49212;
+}
+
+.delete{
+    color:#c94a38;
+}
+
+.create-hotel-button{
+    color: white;
+    background-color: #f49212;
+    border-radius: 5px;
+    margin-top: 10px;
+}

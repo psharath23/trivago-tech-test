@@ -1,0 +1,19 @@
+.datepicker{
+    width:100px;
+    height: 20px;
+    display: flex;
+    border:solid 1px grey;
+    border-radius: 20px;;
+    .datepicker-icon{
+        width:30%;
+        img{
+            width: 70%;
+            height: 72%;
+        }
+    }
+    .datepicker-date{
+        margin-top:3px;
+        width:70%;
+        font-size: 12px;
+    }
+}
